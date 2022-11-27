@@ -1,0 +1,26 @@
+{
+  "name": "vibrant",
+  "displayName": "Vibrant",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vibrant Light",
+        "uiTheme": "vs",
+        "path": "./themes/Vibrant-light-color-theme.json"
+      },
+      {
+        "label": "Vibrant Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Vibrant-dark-color-theme.json"
+      }
+    ]
+  }
+}
